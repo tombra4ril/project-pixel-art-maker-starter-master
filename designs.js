@@ -18,8 +18,6 @@ var width, height;
 SUBMIT.on("submit", function(event){
 							width = WIDTH_ELEMENT.val();
 							height = HEIGHT_ELEMENT.val();
-							WIDTH_ELEMENT.val("1");
-							HEIGHT_ELEMENT.val("1");
 							event.preventDefault();
 							makeGrid();
 						});
