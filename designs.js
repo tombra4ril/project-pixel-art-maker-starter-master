@@ -29,7 +29,7 @@ function makeGrid(){
 // Make the grid
 	let grid = "";
 	let start = 0;
-	while(start++ <= height){
+	while(start++ < height){
 		grid += "<tr>";
 		for(let count = 1; count <= width; count++){
 			grid += "<td class='click'></td>";
